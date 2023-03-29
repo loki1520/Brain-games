@@ -5,7 +5,7 @@
   "bin": {
     "brain-games": "bin/brain-games.js"
   },
-  "description": "[![Actions Status](https://github.com/loki1520/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/loki1520/frontend-project-44/actions)",
+  "description": "Console games",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -22,5 +22,10 @@
   "homepage": "https://github.com/loki1520/frontend-project-44#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
   }
 }
