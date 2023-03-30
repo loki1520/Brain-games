@@ -1,36 +1,26 @@
 import readlineSync from 'readline-sync';
+import getRandomNumber from './randomCount.js';
 
 const numberOfRound = 3;
 const brainEven = () => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
+
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   for (let i = 0; i < numberOfRound; i += 1) {
-    const getRandomNumber = () => Math.floor(Math.random() * 1000);
-    const randomNumber = getRandomNumber();
-
+    const randomNumber = getRandomNumber(1, 100);
     console.log(`Question: ${randomNumber}`);
+
     const answer = readlineSync.question('Your answer: ');
+    const correctAnswer = randomNumber % 2 === 0 ? 'yes' : 'no';
 
-    // if (answer !== 'yes' && answer !== 'no') {
-    //   console.log(`"${answer}" is wrong answer ;(.`);
-    //   console.log(`Let's try again, ${userName}!`);
-    //   return false;
-    // }
-
-    if (answer === 'yes' && randomNumber % 2 !== 0) {
-      console.log('"yes" is wrong answer ;(. Correct answer was "no".');
-      console.log(`Let's try again, ${userName}!`);
-      return false;
+    if (answer === correctAnswer) {
+      console.log('Correct!');
+    } else {
+      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
+      return console.log(`Let's try again, ${userName}!`);
     }
-
-    if (answer === 'no' && randomNumber % 2 !== 1) {
-      console.log('"no" is wrong answer ;(. Correct answer was "yes".');
-      console.log(`Let's try again, ${userName}!`);
-      return false;
-    }
-    console.log('Correct!');
   }
   return console.log(`Congratulations, ${userName}!`);
 };
