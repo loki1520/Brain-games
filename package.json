@@ -4,7 +4,8 @@
   "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "bin/brain-even.js"
+    "brain-even": "bin/brain-even.js",
+    "brain-cals": "bin/brain-cals.js"
   },
   "description": "Console games",
   "main": "index.js",

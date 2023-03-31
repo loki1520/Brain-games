@@ -7,6 +7,9 @@ brain-games:
 brain-even:
 	node bin/brain-even.js 
 
+brain-cals:
+	node bin/brain-cals.js 
+
 lint:
 	npx eslint .
 
