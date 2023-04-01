@@ -5,7 +5,8 @@
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
-    "brain-cals": "bin/brain-cals.js"
+    "brain-cals": "bin/brain-cals.js",
+    "brain-gcd": "bin/brain-gcd.js"
   },
   "description": "Console games",
   "main": "index.js",

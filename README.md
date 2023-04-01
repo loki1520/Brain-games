@@ -8,3 +8,6 @@
 
 ### Brain-cals
 <a href="https://asciinema.org/a/nf1ObHFfDMtLgoXxyDofFEE5n" target="_blank"><img src="https://asciinema.org/a/nf1ObHFfDMtLgoXxyDofFEE5n.svg" /></a>
+
+### Brain-gcd
+<a href="https://asciinema.org/a/jEThWNPETg07WWsOyFxgXOEAt" target="_blank"><img src="https://asciinema.org/a/jEThWNPETg07WWsOyFxgXOEAt.svg" /></a>
