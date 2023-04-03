@@ -14,11 +14,11 @@ const roundGenerator = () => {
   return [randomAsk, correctAnswer];
 };
 
-const preparedGame = () => {
+const even = () => {
   gamesCore(descriptionOfGame, roundGenerator);
 };
 
-export default preparedGame; // если просто экспортировать theCoreOfGames(roundGenerator),
+export default even; // если просто экспортировать theCoreOfGames(roundGenerator),
 // то при вызове из запускного файла bin/brai-even.js - выдавалась ошибка что theCoreOfGames
 // не функция, в итоге создал функцию preparedGame и экспортировал ее, так и не понял
 // что не так, но ошибка исправилась...

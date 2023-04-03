@@ -37,8 +37,8 @@ const roundGenerator = () => {
   return [randomAsk, correctAnswer];
 };
 
-const preparedGame = () => {
+const calc = () => {
   gamesCore(descriptionOfGame, roundGenerator);
 };
 
-export default preparedGame;
+export default calc;
