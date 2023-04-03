@@ -10,8 +10,8 @@ const gamesCore = (descriptionOfGame, roundGenerator) => {
   console.log(descriptionOfGame);
 
   for (let i = 0; i < numberOfRound; i += 1) {
-    const [randomAsk, correctAnswer] = roundGenerator();
-    console.log(`Question: ${randomAsk}`);
+    const [question, correctAnswer] = roundGenerator();
+    console.log(`Question: ${question}`);
     const answer = readlineSync.question('Your answer: ');
     if (answer === correctAnswer) {
       console.log('Correct!');

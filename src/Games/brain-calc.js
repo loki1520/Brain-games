@@ -6,8 +6,7 @@ const descriptionOfGame = 'What is the result of the expression?';
 const getRandomOperation = () => {
   const operators = ['+', '-', '*'];
   const choiceRandomOperatorIndex = getRandomNumber(0, 2);
-  const choisedRandomOperator = operators[choiceRandomOperatorIndex];
-  return choisedRandomOperator;
+  return operators[choiceRandomOperatorIndex];
 };
 
 const getResultExpression = (randomNumberOne, randomNumberTwo, randomOperator) => {
@@ -31,10 +30,10 @@ const roundGenerator = () => {
   const randomNumberOne = getRandomNumber(1, 10);
   const randomNumberTwo = getRandomNumber(1, 10);
 
-  const randomAsk = `${randomNumberOne} ${randomOperator} ${randomNumberTwo}`;
+  const question = `${randomNumberOne} ${randomOperator} ${randomNumberTwo}`;
   const correctAnswer = getResultExpression(randomNumberOne, randomNumberTwo, randomOperator);
 
-  return [randomAsk, correctAnswer];
+  return [question, correctAnswer];
 };
 
 const calc = () => {
