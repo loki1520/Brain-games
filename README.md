@@ -6,7 +6,7 @@
 ### Brain-even
 <a href="https://asciinema.org/a/571654" target="_blank"><img src="https://asciinema.org/a/571654.svg" /></a>
 
-### Brain-cals
+### Brain-calc
 <a href="https://asciinema.org/a/nf1ObHFfDMtLgoXxyDofFEE5n" target="_blank"><img src="https://asciinema.org/a/nf1ObHFfDMtLgoXxyDofFEE5n.svg" /></a>
 
 ### Brain-gcd
