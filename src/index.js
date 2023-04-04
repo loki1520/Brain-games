@@ -2,12 +2,12 @@ import readlineSync from 'readline-sync';
 
 const numberOfRound = 3;
 
-const gamesCore = (descriptionOfGame, roundGenerator) => {
+const gamesCore = (gameDescription, roundGenerator) => {
   console.log('Welcome to the Brain Games!');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
 
-  console.log(descriptionOfGame);
+  console.log(gameDescription);
 
   for (let i = 0; i < numberOfRound; i += 1) {
     const [question, correctAnswer] = roundGenerator();

@@ -1,7 +1,7 @@
 import getRandomNumber from '../randomCount.js';
 import gamesCore from '../index.js';
 
-const descriptionOfGame = 'What is the result of the expression?';
+const gameDescription = 'What is the result of the expression?';
 
 const getRandomOperation = () => {
   const operators = ['+', '-', '*'];
@@ -37,7 +37,7 @@ const roundGenerator = () => {
 };
 
 const calc = () => {
-  gamesCore(descriptionOfGame, roundGenerator);
+  gamesCore(gameDescription, roundGenerator);
 };
 
 export default calc;

@@ -1,7 +1,7 @@
 import getRandomNumber from '../randomCount.js';
 import gamesCore from '../index.js';
 
-const descriptionOfGame = 'Answer "yes" if the number is even, otherwise answer "no".';
+const gameDescription = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 const isEven = (checkNumber) => checkNumber % 2 === 0;
 
@@ -12,7 +12,7 @@ const roundGenerator = () => {
 };
 
 const even = () => {
-  gamesCore(descriptionOfGame, roundGenerator);
+  gamesCore(gameDescription, roundGenerator);
 };
 
 export default even;
