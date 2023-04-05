@@ -5,8 +5,8 @@ const gameDescription = 'Find the greatest common divisor of given numbers.';
 
 const getMaximumDivisior = (one, two) => {
   const minimal = one <= two ? one : two;
-  for (let i = minimal; i > 0; i -= 1) {
-    if (two % i === 0 && one % i === 0) {
+  for (let i = minimal; i > 1; i -= 1) {
+    if ((two % i === 0) && (one % i === 0)) {
       return String(i);
     }
   }
