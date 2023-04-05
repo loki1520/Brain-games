@@ -3,14 +3,11 @@ import gamesCore from '../index.js';
 
 const gameDescription = 'Find the greatest common divisor of given numbers.';
 
-const getMaximumDivisior = (one, two) => {
-  const minimal = one <= two ? one : two;
-  for (let i = minimal; i > 1; i -= 1) {
-    if ((two % i === 0) && (one % i === 0)) {
-      return String(i);
-    }
+const getMaximumDivisior = (num1, num2) => {
+  if (num2 === 0) {
+    return num1;
   }
-  return '1';
+  return getMaximumDivisior(num2, num1 % num2);
 };
 
 const roundGenerator = () => {
@@ -18,7 +15,7 @@ const roundGenerator = () => {
   const randomNumberTwo = getRandomNumber(1, 100);
 
   const question = `${randomNumberOne} ${randomNumberTwo}`;
-  const correctAnswer = getMaximumDivisior(randomNumberOne, randomNumberTwo);
+  const correctAnswer = String(getMaximumDivisior(randomNumberOne, randomNumberTwo));
   return [question, correctAnswer];
 };
 
