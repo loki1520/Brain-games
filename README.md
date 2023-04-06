@@ -21,7 +21,7 @@
 [My repository](https://github.com/loki1520/frontend-project-44) 
 
 1. ✅ install globally Node.js, version not lower than 19.8.1
-2. ✅ git clone https://github.com/loki1520/frontend-project-44.git
+2. ✅ git clone https://github.com/loki1520/frontend-project-brain-games.git
 3. ✅ cd frontend-project-44
 4. ✅ make install
 5. ✅ npm install
