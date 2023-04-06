@@ -3,11 +3,11 @@
 [![Actions Status](https://github.com/loki1520/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/loki1520/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/6067a601ae85a130218a/maintainability)](https://codeclimate.com/github/loki1520/frontend-project-44/maintainability)
 
-# Brain-games
+<h1 style='color:red'>Brain-games</h1>
 
-Welcome to my first frontend project: Brain-games. It is set of five mathematic games. Each game display the game conditions in the console & after that asks three questions. After three correct answers in a row, it is considered that the game is over.
+`Welcome to my first frontend project: Brain-games. It is set of five mathematic games. Each game display the game conditions in the console & after that asks three questions. After three correct answers in a row, it is considered that the game is over.`
 
-Presented games:
+## Presented games:
 
 * Calculator. Arithmetic expressions that need to be calculated.
 * Progression. Search for missing numbers in a sequence of numbers.
