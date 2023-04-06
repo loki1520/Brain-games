@@ -11,3 +11,6 @@
 
 ### Brain-gcd
 <a href="https://asciinema.org/a/jEThWNPETg07WWsOyFxgXOEAt" target="_blank"><img src="https://asciinema.org/a/jEThWNPETg07WWsOyFxgXOEAt.svg" /></a>
+
+### Brain-prime
+<a href="https://asciinema.org/a/ML5ysLDHpojicpvbLsQrweYZ4" target="_blank"><img src="https://asciinema.org/a/ML5ysLDHpojicpvbLsQrweYZ4.svg" /></a>
