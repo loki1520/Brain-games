@@ -22,7 +22,7 @@
 
 1. ✅ install globally Node.js, version not lower than 19.8.1
 2. ✅ git clone https://github.com/loki1520/frontend-project-brain-games.git
-3. ✅ cd frontend-project-44
+3. ✅ cd frontend-project-brain-games
 4. ✅ make install
 5. ✅ npm install
 6. ✅ npm link
