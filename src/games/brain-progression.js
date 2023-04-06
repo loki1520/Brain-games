@@ -4,11 +4,11 @@ import gamesCore from '../index.js';
 const gameDescription = 'What number is missing in the progression?';
 
 const getArifmeticProgression = (start, counter, step) => {
-  const resultArr = [];
+  const result = [];
   for (let i = 0; i < counter; i += 1) {
-    resultArr.push(start + step * i);
+    result.push(start + step * i);
   }
-  return resultArr;
+  return result;
 };
 
 const roundGenerator = () => {
