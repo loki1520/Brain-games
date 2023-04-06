@@ -1,11 +1,12 @@
-#### Brain games
+#### Brain games 💭
 
 [![Actions Status](https://github.com/loki1520/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/loki1520/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/6067a601ae85a130218a/maintainability)](https://codeclimate.com/github/loki1520/frontend-project-44/maintainability)
 
-<h1 style='color:red'>Brain-games</h1>
+<h1 style='color:green'>Brain-games 🙇</h1>
 
 `Welcome to my first frontend project: Brain-games. It is set of five mathematic games. Each game display the game conditions in the console & after that asks three questions. After three correct answers in a row, it is considered that the game is over.`
+
 
 ## Presented games:
 
@@ -19,12 +20,12 @@
 
 [My repository](https://github.com/loki1520/frontend-project-44) 
 
-1. install globally Node.js, version not lower than 19.8.1
-2. git clone https://github.com/loki1520/frontend-project-44.git
-3. cd frontend-project-44
-4. make install
-5. npm install
-6. npm link
+1. ✅ install globally Node.js, version not lower than 19.8.1
+2. ✅ git clone https://github.com/loki1520/frontend-project-44.git
+3. ✅ cd frontend-project-44
+4. ✅ make install
+5. ✅ npm install
+6. ✅ npm link
 
 
 ## Brain-even
